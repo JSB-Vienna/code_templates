@@ -309,7 +309,7 @@ ENDCLASS.                     "ltc_${CLASS_NAME_incl_hint_WHAT_is_tested}  IMPLE
 &#13;
 "! &lt;p class="shorttext synchronized" lang="${Development_Language}"&gt;${Module_abbreviation_like_MM_or_FI}: BC ${Short_description_of_the_class}&lt;/p&gt;&#13;
 CLASS ${Name_of_the_class_just_created} DEFINITION PUBLIC&#13;
-                                      CREATE PUBLIC.&#13;
+                                      CREATE PROTECTED.&#13;
 &#13;
 * P U B L I C   S E C T I O N&#13;
   PUBLIC SECTION.&#13;
